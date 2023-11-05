@@ -455,6 +455,7 @@ def eighteenth_test(driver):
             actions.perform()
             sign_up_button.click()
             print(Fore.GREEN + f"Test passed" + Style.RESET_ALL)
+            return True
 
 def nineteenth_test(driver):
     '''
